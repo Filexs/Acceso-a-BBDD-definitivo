@@ -39,7 +39,7 @@
             this.boton_Fran.Name = "boton_Fran";
             this.boton_Fran.Size = new System.Drawing.Size(164, 133);
             this.boton_Fran.TabIndex = 0;
-            this.boton_Fran.Text = "Pa\' quien acabe antes";
+            this.boton_Fran.Text = "Clientes";
             this.boton_Fran.UseVisualStyleBackColor = true;
             this.boton_Fran.Click += new System.EventHandler(this.boton_Fran_Click);
             // 
@@ -49,7 +49,7 @@
             this.boton_Alvaro.Name = "boton_Alvaro";
             this.boton_Alvaro.Size = new System.Drawing.Size(164, 133);
             this.boton_Alvaro.TabIndex = 1;
-            this.boton_Alvaro.Text = "Álvaro";
+            this.boton_Alvaro.Text = "Empleados";
             this.boton_Alvaro.UseVisualStyleBackColor = true;
             this.boton_Alvaro.Click += new System.EventHandler(this.boton_Alvaro_Click);
             // 
@@ -59,7 +59,7 @@
             this.boton_Pedro.Name = "boton_Pedro";
             this.boton_Pedro.Size = new System.Drawing.Size(164, 133);
             this.boton_Pedro.TabIndex = 2;
-            this.boton_Pedro.Text = "Pedro";
+            this.boton_Pedro.Text = "Proveedores";
             this.boton_Pedro.UseVisualStyleBackColor = true;
             this.boton_Pedro.Click += new System.EventHandler(this.boton_Pedro_Click);
             // 

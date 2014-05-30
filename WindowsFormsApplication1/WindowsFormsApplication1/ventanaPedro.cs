@@ -31,5 +31,10 @@ namespace WindowsFormsApplication1
             this.proveedoresTableAdapter.Fill(this.databaseDataSet.Proveedores);
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
