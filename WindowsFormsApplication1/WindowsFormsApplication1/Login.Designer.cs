@@ -84,11 +84,11 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(115, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Usuario:";
+            this.label2.Text = "Contraseña:";
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -100,7 +100,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.crear);
             this.Controls.Add(this.conectar);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

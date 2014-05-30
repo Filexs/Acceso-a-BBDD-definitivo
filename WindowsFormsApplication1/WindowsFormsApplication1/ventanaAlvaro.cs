@@ -16,5 +16,20 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void empleadosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.empleadosBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.databaseDataSet);
+
+        }
+
+        private void ventanaAlvaro_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'databaseDataSet.Empleados' Puede moverla o quitarla según sea necesario.
+            this.empleadosTableAdapter.Fill(this.databaseDataSet.Empleados);
+
+        }
     }
 }
